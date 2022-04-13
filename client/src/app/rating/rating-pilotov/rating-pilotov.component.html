@@ -1,0 +1,40 @@
+<div class="p-4">
+  <span *ngFor="let item of ratingPilota">
+    <span class="row">
+      <span class="col-10 big py-1">{{item.Member}}</span>
+      <span *ngIf="rating == 'NN'" class="col-2 py-2" style="text-align: right" routerLink="/ratingNN">
+        <img src="../../../assets/close.png" height="32" width="32"/>
+      </span>
+      <span *ngIf="rating == 'Global'" class="col-2 py-2 bg" style="text-align: center" routerLink="/ratingGlobal">
+        <img class="cursor" src="../../../assets/close.png" height="32" width="32"/>
+      </span>
+    </span>
+    <span class="row pb-4">
+      <span class="col-12">{{item.Town}}</span>
+    </span>
+    <span *ngFor="let itemLeague of item.League">
+      <span class="row">
+        <span class="col-12 py-1 big14 bg">{{itemLeague.LeagueName}}</span>
+      </span>
+      <table  class="big14" style="width: 100%">
+        <thead style="text-align: center">
+        <tr style="border-bottom: black 1px solid">
+          <th>Лига</th>
+          <th>Ивент</th>
+          <th>Дата</th>
+          <th>Место</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let itemTournaments of itemLeague.Tournaments" style="border-top: black 1px solid">
+          <td style="width: 20%; text-align: center">{{itemTournaments.TournamentOrganizer}}</td>
+          <td>{{itemTournaments.TournamentName}}</td>
+          <td style="width: 10ch; text-align: center">{{itemTournaments.TournamentDate | date: 'dd.MM.yy'}}</td>
+          <td style="width: 6ch; text-align: center">{{itemTournaments.TournamentPosition}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </span>
+  </span>
+</div>
+

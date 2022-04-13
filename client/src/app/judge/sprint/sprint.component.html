@@ -1,0 +1,30 @@
+<div class="m-4">
+  <div class="row my-3">
+    <select class=" col-12 border big p-2" id="selectGame" [(ngModel)]="gameId" (change)="changeGame()" style="width: 100%">
+      <option value="0">Выберите этап</option>
+      <option *ngFor="let item of nameGames" value="{{item.id}}">{{item.namegames}}</option>
+    </select>
+  </div>
+
+  <div class="row my-3">
+   <select class="col-10 border big p-2" [(ngModel)]="userName" (change)="changeUser()" style="width: 100%" id="user">
+      <option value="0">Выберите участника</option>
+      <option *ngFor="let item of nameUsers" value="{{item.username}}">{{item.username}}</option>
+    </select>
+    <button [disabled]="userName == '0'" class="col-2 bg border big16 p-2" style="text-align: center" (click)="addUser()">
+      <img src="../../../assets/plus.png" height="32" width="32"/>
+    </button>
+  </div>
+
+  <div *ngFor="let item of usersStart; index as i" class="row my-3">
+    <button class="col-2 bg-danger border big16 py-3" (click)="DNF(i)">DNF</button>
+    <button class="col-7 bg border big16 py-3"(click)="onTimer(i)" >{{item.username}}</button>
+    <button class="col-3 bg border big py-3">{{allSec[i]}}</button>
+  </div>
+
+  <div class="row my-2" style="text-align: center">
+    <button class="col-2 border bg py-3" [routerLink]="['/mainmenu']"><img
+      src="../../../assets/close.png"/></button>
+    <button class="border big bg py-3 col-10" (click)="saveEtap()">Записать</button>
+  </div>
+</div>

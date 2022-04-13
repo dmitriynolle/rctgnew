@@ -1,0 +1,79 @@
+<div class="m-4">
+  <div [hidden]="!popupVisible">
+    <div class="row big">
+      <select class="col-9 border p-2" [(ngModel)]="name" (change)="selectNameGames()" name="game" id="1"
+              style="width: 100%">
+        <option value="0">Выберите соревнование</option>
+        <option *ngFor="let item of stagesName" value="{{item.id}}">{{item.name}}</option>
+      </select>
+      <div class="col-1 mt-auto big14">
+        <input class="mt-auto mr-1" type="radio" name="exampleRadios" value="0" (click)="getKResult(0)" checked>
+        <label>All</label>
+      </div>
+      <div class="col-1 mt-auto big14">
+        <input class="mt-auto mr-1" type="radio" name="exampleRadios" value="1" (click)="getKResult(1)">
+        <label>K1</label>
+      </div>
+      <div class="col-1 mt-auto big14">
+        <input class="mt-auto mr-1" type="radio" name="exampleRadios" value="2" (click)="getKResult(2)">
+        <label>K2</label>
+      </div>
+    </div>
+
+    <table style="width: 100%" class="big14">
+      <thead>
+      <tr style="border-bottom: double 1px black">
+        <th>№</th>
+        <th>Номер</th>
+        <th class="p-2">ФИО</th>
+        <th>Баллы</th>
+        <th>Время</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of stages; let i = index" [class.light]="item.su1>9000"
+          (click)="usersStagesData(item.stagesName.id, item.users.id, i)">
+        <td>{{i + 1}}</td>
+        <td>{{item.users.number}}</td>
+        <td class="p-2">{{item.users.name}}</td>
+        <td>{{item.summa}}</td>
+        <td>{{timeConverter(item.time)}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngFor="let item of usersSatgesData; index as i" [hidden]="popupVisible">
+    <div class="row big" *ngIf="i==0">
+      <div class="col-10 border py-2">{{item.stages.name}}</div>
+      <div class="col-2 border py-2 bg" (click)="popupVisible = true" style="text-align: center"><img
+        src="../../../assets/close.png"/>
+      </div>
+    </div>
+    <div class="row big16" *ngIf="i == 0">
+      <div class="col-6 pt-2">{{item.users.name}}</div>
+      <div class="col-3 pt-2 text-center">время {{timeConverter(userStage.time)}}</div>
+      <div class="col-3 pt-2 text-center">баллы {{userStage.summa}}</div>
+    </div>
+    <div class="row" *ngIf="i == 0 || usersSatgesData[i].su != usersSatgesData[i-1].su"
+         style="border-bottom: solid 1px black">
+      <div class="col-6 mt-3">СУ {{item.su}}</div>
+      <div class="col-2 mt-3 text-center">баллы</div>
+      <div class="col-2 mt-3 text-center">кол-во</div>
+      <div class="col-2 mt-3 text-center">сумма</div>
+    </div>
+    <div class="row" *ngIf="item.sum != -1">
+      <div class="col-6">{{item.penalty.name}}</div>
+      <div class="col-2 text-center">{{item.penalty.point}}</div>
+      <div class="col-2 text-center">{{item.sum}}</div>
+      <div class="col-2 text-center">{{item.sum * item.penalty.point}}</div>
+    </div>
+    <div class="row" *ngIf="item.sum == -1">
+      <div class="col-6">Без ошибок</div>
+      <div class="col-2 text-center">0</div>
+      <div class="col-2 text-center">0</div>
+      <div class="col-2 text-center">0</div>
+    </div>
+  </div>
+</div>
+

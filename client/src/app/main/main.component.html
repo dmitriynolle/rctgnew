@@ -1,0 +1,80 @@
+<div class="main_header">
+  <div class="main_header_text">
+    <div>
+      <p class="text_h1">Сообщество трофи-моделистов</p>
+      <p>Открытая группа для общения людей связанных с RC Триалом и Трофи в Нижнем Новгороде, Дзержинске,
+        Кстово, Павлово.</p>
+      <p>Дата основания: 19 ноября 2015 года.</p>
+    </div>
+    <div>
+      <div class="main_vk">
+        <a class="href" target="_blank" href="https://vk.com/nnrctg">
+          <img src="assets/logoVk.png" alt="logovk">
+          <span>&ensp;Присоединиться к нам</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="main_header_img">
+    <img src="assets/logoTrophyNn.jpg" alt="biglogo" width="100%">
+  </div>
+</div>
+
+<div>
+  <div *ngIf="visible"
+       style="position: fixed; display: flex; top: 0px; left: 0px; z-index: 16; width: 100%; height: 100%; background-color: rgba(255, 255, 255, .8)">
+    <div class="shadow_new news_big_photo_fon">
+      <div class="news_big_photo_img">
+        <img src="{{bigFoto}}" (click)="visible = false" class="news_big_photo_img_img">
+        <div class="news_big_photo_smoll_img">
+          <div *ngFor="let item of photosVk[i].attachments, let j = index">
+            <img *ngIf="item.type == 'photo'" (click)="loadNewBigFoto(i, j)" src={{item.photo.sizes[4].url}} class="news_big_photo_smoll_img_img">
+          </div>
+        </div>
+      </div>
+      <div class="overflow-auto news_big_photo_text">
+        <div class="news_post_text_header">{{bigData * 1000 | date:'dd MMMM'}}</div>
+        <div [innerHTML]="bigNews"></div>
+      </div>
+    </div>
+  </div>
+  <div *ngFor="let item of photosVk, let i = index">
+    <div *ngIf="!item.copy_history && item.attachments" [ngClass]="newsdirect(i)" class="news_lenta">
+      <div class="news_post_text">
+        <div class="news_post_text_header">{{item.date * 1000 | date:'dd MMMM'}}</div>
+        <div class=" overflow-auto news_post_text_text" [innerHTML]="subText(item.text)"></div>
+        <div *ngIf="item.attachments[0].type == 'album'" class=" overflow-auto news_post_text_text" >
+          <a target="_blank" href="https://vk.com/album{{item.owner_id}}_{{item.attachments[0].album.id}}">Посмотреть альбом</a>
+        </div>
+        <div *ngIf="item.attachments[0].type == 'video'" class=" overflow-auto news_post_text_text" >
+          <a target="_blank" href="https://vk.com/video{{item.owner_id}}_{{item.attachments[0].video.id}}">Посмотреть видео </a>
+          <img src="../../assets/footerVk.png" height="25" width="25"/></div>
+        <div *ngFor="let item1 of item.attachments, let j = index" class=" overflow-auto news_post_text_text">
+          <a *ngIf="item.attachments[j].type == 'link' && j != 0" target="_blank"
+             href={{item.attachments[j].link.url}}>{{item.attachments[j].link.title}}</a>
+        </div>
+      </div>
+      <div class="news_post_zaglushka"></div>
+      <div *ngIf="item.attachments[0].type == 'album'" class="news_post_img shadow_new"
+           [ngStyle]="{'background': 'url('+ item.attachments[0].album.thumb.sizes[item.attachments[0].album.thumb.sizes.length - 1].url + ')', 'background-position': 'center', 'background-size': 'cover'}">
+      </div>
+      <div *ngIf="item.attachments[0].type == 'video'" class="news_post_img shadow_new"
+           [ngStyle]="{'background': 'url('+ item.attachments[0].video.photo_800+')', 'background-position': 'center', 'background-size': 'cover'}">
+      </div>
+<!--      <div *ngIf="item.attachments[0].type == 'link'" class="news_post_img shadow_new"-->
+<!--      [ngStyle]="{'background': 'url('+ item.attachments[0].link.photo.sizes[0].url+')', 'background-position': 'center', 'background-size': 'cover'}">-->
+<!--        <a *ngIf="item.attachments[0].type == 'link'" target="_blank" title="Посмотреть"-->
+<!--           href={{item.attachments[0].link.url}} style="display: block; height: 100%; width: 100%"></a>-->
+<!--      </div>-->
+      <div *ngIf="item.attachments[0].type == 'photo'" class="news_post_img"
+           style="margin: 0 auto; position: relative"
+           (click)="loadBigFoto(i, 0)">
+        <div *ngFor="let item1 of item.attachments, let j = index" class="{{widthImg}}">
+          <img *ngIf="item.attachments[j].type == 'photo'" (click)="loadBigFoto(i, j)" src={{item1.photo.sizes[4].url}}
+               class="smoll_img_size shadow_new" id="{{j}}"
+               [ngStyle]="{'z-index': item.attachments.length - j, 'position': 'absolute', 'bottom': (-j)*5+'px', 'left': (j)*5 +'px'}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

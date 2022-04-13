@@ -1,0 +1,71 @@
+<div class="m-4">
+  <div *ngFor="let item of userEtap">
+    <div class="row big">
+      <div class="col-10">
+        {{item.namegames}}
+      </div>
+      <div class="col-2">
+        {{allSumma}}
+      </div>
+    </div>
+    <div class="row" style="font-size: large">
+      <div class="col-1">
+        {{item.nomeruser}}
+      </div>
+      <div class="col-6">
+        {{item.username}}
+      </div>
+      <div class="col-2">
+        K {{item.factoruser}}
+      </div>
+      <div class="col-3">
+        СУ: {{su}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row py-1 my-1">
+    <div *ngIf="sec < 10" class="border bg timer_font"
+         [class.bg-danger]=bg[2] [class.bg-success]=bg[1] [ngClass]="{'col-9': bg[0] && (min != 0 || sec != 0)}"
+         (click)="onOffTimer()">{{min}} : 0{{sec}}</div>
+    <div *ngIf="sec >= 10" class="border bg timer_font"
+         [class.bg-danger]=bg[2] [class.bg-success]=bg[1] [class.col-9]=bg[0]
+         (click)="onOffTimer()">{{min}} : {{sec}}</div>
+    <div *ngIf="(sec != 0 || min != 0) && bg[0]" class="border bg col-3 timer_font_smoll"
+         [class.bg-danger]=bg[2] [class.bg-success]=bg[1]
+         (click)="min = this.nameGamesOpis[0].ball + this.nameGamesOpis[1].ball; sec = 0; allSec = (this.nameGamesOpis[0].ball + this.nameGamesOpis[1].ball) * 60">
+      {{this.nameGamesOpis[0].ball + this.nameGamesOpis[1].ball}}
+    </div>
+    <!--    <div *ngIf="(sec != 0 || min != 0) && bg[0]" class="border bg col-9 timer_font"-->
+    <!--         [class.bg-danger]=bg[2] [class.bg-success]=bg[1]-->
+    <!--         (click)="onOffTimer()">{{min}} : {{sec}}</div>-->
+  </div>
+
+  <div class="row" *ngFor="let item of nameGamesOpis; let i = index">
+    <div class="border my-1" *ngIf="item.shtrafid != 1 && item.shtrafid != 2" style="width: 100%">
+      <button class="col-10 p-2 bg btn-r btn big16"
+              style="text-align: center" [disabled]="item.shtrafid != 7 && item.shtrafid != 10 && bg[0] || allSec == 0"
+              (click)="increment(i)">{{item.shtrafname}} <span class="badge badge-danger">{{ball[i]}}</span>
+        <span> ({{item.shtrafball}})</span>
+      </button>
+      <button *ngIf="ball[i] > 0" class="col-2 p-2 btn-l btn big16"
+              style="text-align: center; background-color: red; border: 2px solid red" (click)="decrement(i)"
+              [disabled]="item.shtrafid != 8 && item.shtrafid != 11 && bg[0] || allSec == 0">-
+      </button>
+      <button *ngIf="ball[i] == 0" class="col-2 p-2 bg btn-l btn big16"
+              style="text-align: center" [disabled]="item.shtrafid != 7 && item.shtrafid != 10 && bg[0] || allSec == 0">
+        :)
+      </button>
+    </div>
+  </div>
+
+  <div class="row my-2" style="text-align: center">
+    <button [disabled]="bg[1]" class="col-2 border bg py-3" [routerLink]="['/su1', game]"><img
+      src="../../../assets/close.png"/></button>
+    <button [disabled]="bg[1] || allSec == 0 || !popupwindow" class="border big bg py-3 col-10"
+            (click)="saveEtap()">Записать
+    </button>
+  </div>
+
+  <div [hidden]="popupwindow" class="border big popup" (click)="popupwindow = true">{{popuptext}}</div>
+</div>

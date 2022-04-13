@@ -1,0 +1,2982 @@
+﻿[
+	{
+		"Division": "МС",
+		"RatingChange": 1,
+		"Count": 11,
+		"Rating": 972,
+		"Position": 1,
+		"Member": "Трубников Андрей",
+		"MemberID": "7d9a4a5c-c967-11e9-ac47-902b34300053",
+		"Town": "Королёв"
+	},
+	{
+		"Division": "МС",
+		"RatingChange": 0,
+		"Count": 16,
+		"Rating": 962,
+		"Position": 2,
+		"Member": "Шеронов Сергей",
+		"MemberID": "7d9a4a60-c967-11e9-ac47-902b34300053",
+		"Town": "Дзержинск"
+	},
+	{
+		"Division": "МС",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 940,
+		"Position": 3,
+		"Member": "Кувшинников Игорь",
+		"MemberID": "7d9a4a5e-c967-11e9-ac47-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": 0,
+		"Count": 7,
+		"Rating": 773,
+		"Position": 4,
+		"Member": "Миронов Александр",
+		"MemberID": "98525cb4-0f6e-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": 0,
+		"Count": 9,
+		"Rating": 737,
+		"Position": 5,
+		"Member": "Новикова Анастасия",
+		"MemberID": "7d9a4a6b-c967-11e9-ac47-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": 1,
+		"Count": 12,
+		"Rating": 706,
+		"Position": 6,
+		"Member": "Новиков Дмитрий",
+		"MemberID": "8531a28c-0df5-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": -1,
+		"Count": 10,
+		"Rating": 646,
+		"Position": 7,
+		"Member": "Уткин Денис",
+		"MemberID": "7d9a4a64-c967-11e9-ac47-902b34300053",
+		"Town": "Кстово"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": -1,
+		"Count": 12,
+		"Rating": 616,
+		"Position": 8,
+		"Member": "Алексеев Максим",
+		"MemberID": "536d22e3-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 597,
+		"Position": 9,
+		"Member": "Буга Владимир",
+		"MemberID": "98525cb5-0f6e-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "КМС",
+		"RatingChange": 0,
+		"Count": 6,
+		"Rating": 578,
+		"Position": 10,
+		"Member": "Минаков Александр",
+		"MemberID": "7d9a4a68-c967-11e9-ac47-902b34300053",
+		"Town": "Дзержинский"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": 1,
+		"Count": 14,
+		"Rating": 544,
+		"Position": 11,
+		"Member": "Пименов Сергей",
+		"MemberID": "536d22db-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 541,
+		"Position": 12,
+		"Member": "Наноев Александр",
+		"MemberID": "536d22ee-0df6-11ea-9822-902b34300053",
+		"Town": "Обнинск"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": 1,
+		"Count": 16,
+		"Rating": 515,
+		"Position": 13,
+		"Member": "Пименов Владимир",
+		"MemberID": "536d22e7-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 510,
+		"Position": 14,
+		"Member": "Лакомов Максим",
+		"MemberID": "536d22e9-0df6-11ea-9822-902b34300053",
+		"Town": "Орел"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 508,
+		"Position": 16,
+		"Member": "Буга Александр",
+		"MemberID": "98525cb7-0f6e-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 508,
+		"Position": 15,
+		"Member": "Савельев Виктор",
+		"MemberID": "7d9a4a6c-c967-11e9-ac47-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 500,
+		"Position": 17,
+		"Member": "Комаров Арсений",
+		"MemberID": "98525cb9-0f6e-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": 0,
+		"Count": 6,
+		"Rating": 456,
+		"Position": 18,
+		"Member": "Тараскин Николай",
+		"MemberID": "dacf1820-1353-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": 1,
+		"Count": 17,
+		"Rating": 451,
+		"Position": 19,
+		"Member": "Ямушев Андрей",
+		"MemberID": "536d22ec-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "1 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 451,
+		"Position": 20,
+		"Member": "Завьялов Артем",
+		"MemberID": "98525cb6-0f6e-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 449,
+		"Position": 21,
+		"Member": "Водяшкин Алексей",
+		"MemberID": "536d22fc-0df6-11ea-9822-902b34300053",
+		"Town": "Орел"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 420,
+		"Position": 22,
+		"Member": "Подтабачный Денис",
+		"MemberID": "7d9a4a6e-c967-11e9-ac47-902b34300053",
+		"Town": "Химки"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": 1,
+		"Count": 12,
+		"Rating": 418,
+		"Position": 23,
+		"Member": "Яцук Роман",
+		"MemberID": "2500d198-0f52-11ea-9822-902b34300053",
+		"Town": "Павлово"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": 1,
+		"Count": 4,
+		"Rating": 410,
+		"Position": 24,
+		"Member": "Тябин Владислав",
+		"MemberID": "536d22e1-0df6-11ea-9822-902b34300053",
+		"Town": "Владимир"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 409,
+		"Position": 25,
+		"Member": "Хлопцев Николай",
+		"MemberID": "98525cb8-0f6e-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 408,
+		"Position": 26,
+		"Member": "Карпов Алексей",
+		"MemberID": "dacf1831-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 407,
+		"Position": 27,
+		"Member": "Оксюта Андрей",
+		"MemberID": "dacf1832-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 404,
+		"Position": 28,
+		"Member": "Мокроусов Юрий",
+		"MemberID": "536d22de-0df6-11ea-9822-902b34300053",
+		"Town": "Энгельс"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 403,
+		"Position": 29,
+		"Member": "Терехов Александр",
+		"MemberID": "9ead8d9e-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 389,
+		"Position": 30,
+		"Member": "Паршин Александр",
+		"MemberID": "98525cbb-0f6e-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 34,
+		"Member": "Ден Матвей",
+		"MemberID": "dacf182d-1353-11ea-9822-902b34300053",
+		"Town": "Долгопрудный"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": 0,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 33,
+		"Member": "Федоров Юрий",
+		"MemberID": "9ead8d9f-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 35,
+		"Member": "Рязанов Александр",
+		"MemberID": "9ead8da0-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 31,
+		"Member": "Ва Михаил",
+		"MemberID": "7d9a4a61-c967-11e9-ac47-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "2 разряд",
+		"RatingChange": 0,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 32,
+		"Member": "Камнев Роман",
+		"MemberID": "7d9a4a69-c967-11e9-ac47-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 350,
+		"Position": 36,
+		"Member": "Виноградов Егор",
+		"MemberID": "dacf182b-1353-11ea-9822-902b34300053",
+		"Town": "Одинцово"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 345,
+		"Position": 37,
+		"Member": "Шишков Анатолий",
+		"MemberID": "dacf182e-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": 1,
+		"Count": 13,
+		"Rating": 339,
+		"Position": 38,
+		"Member": "Чередников Никита",
+		"MemberID": "536d22f9-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 330,
+		"Position": 39,
+		"Member": "Сыромятников Георгий",
+		"MemberID": "dacf182f-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 329,
+		"Position": 40,
+		"Member": "Романов Виктор",
+		"MemberID": "9ead8da2-14ea-11ea-9822-902b34300053",
+		"Town": "Малоярославец"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": 1,
+		"Count": 13,
+		"Rating": 327,
+		"Position": 41,
+		"Member": "Алёнычев Алексей",
+		"MemberID": "536d22eb-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 326,
+		"Position": 42,
+		"Member": "Пинясов Игорь",
+		"MemberID": "dacf1830-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 321,
+		"Position": 43,
+		"Member": "Коновалов Максим",
+		"MemberID": "dacf183a-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 316,
+		"Position": 44,
+		"Member": "Колесников Игорь",
+		"MemberID": "dacf181c-1353-11ea-9822-902b34300053",
+		"Town": "Белгород"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 302,
+		"Position": 45,
+		"Member": "Лакеев Николай",
+		"MemberID": "536d22f0-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": 1,
+		"Count": 10,
+		"Rating": 302,
+		"Position": 46,
+		"Member": "Краев Кирилл",
+		"MemberID": "2500d199-0f52-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 292,
+		"Position": 47,
+		"Member": "Баранов Денис",
+		"MemberID": "98525cba-0f6e-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 288,
+		"Position": 48,
+		"Member": "Яхонтов Григорий",
+		"MemberID": "dacf181f-1353-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 286,
+		"Position": 49,
+		"Member": "Ботов Глеб",
+		"MemberID": "9ead8d93-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "3 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 282,
+		"Position": 50,
+		"Member": "Кривенко Даниил",
+		"MemberID": "9ead8da4-14ea-11ea-9822-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 273,
+		"Position": 51,
+		"Member": "Сарайкин Сергей",
+		"MemberID": "dacf1836-1353-11ea-9822-902b34300053",
+		"Town": "Челябинск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 250,
+		"Position": 52,
+		"Member": "Кисель Сергей",
+		"MemberID": "dacf183b-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 248,
+		"Position": 53,
+		"Member": "Степанов Андрей",
+		"MemberID": "536d22e6-0df6-11ea-9822-902b34300053",
+		"Town": "Саратов"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 238,
+		"Position": 54,
+		"Member": "Рубин Игорь",
+		"MemberID": "dacf181e-1353-11ea-9822-902b34300053",
+		"Town": "Дубна"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 228,
+		"Position": 55,
+		"Member": "Ширманов Михаил",
+		"MemberID": "dacf1833-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 222,
+		"Position": 56,
+		"Member": "Крутилов Андрей",
+		"MemberID": "cb624b5e-209c-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 221,
+		"Position": 57,
+		"Member": "Ден Андрей",
+		"MemberID": "dacf1834-1353-11ea-9822-902b34300053",
+		"Town": "Долгопрудный"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 220,
+		"Position": 58,
+		"Member": "Тимофеев Андрей",
+		"MemberID": "dacf1838-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 216,
+		"Position": 59,
+		"Member": "Щербаков Алексей",
+		"MemberID": "dacf1837-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 5,
+		"Rating": 209,
+		"Position": 60,
+		"Member": "Шеронов Алексей",
+		"MemberID": "536d22f6-0df6-11ea-9822-902b34300053",
+		"Town": "Дзержинск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 4,
+		"Rating": 202,
+		"Position": 62,
+		"Member": "Юдин Денис",
+		"MemberID": "536d22f7-0df6-11ea-9822-902b34300053",
+		"Town": "Ковров"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 1,
+		"Rating": 202,
+		"Position": 61,
+		"Member": "Баранов Даниил",
+		"MemberID": "dacf1839-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 6,
+		"Rating": 198,
+		"Position": 64,
+		"Member": "Будаков Александр",
+		"MemberID": "536d22fb-0df6-11ea-9822-902b34300053",
+		"Town": "Арзамас"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 4,
+		"Rating": 198,
+		"Position": 63,
+		"Member": "Голубев Александр",
+		"MemberID": "536d22fd-0df6-11ea-9822-902b34300053",
+		"Town": "Владимир"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 193,
+		"Position": 65,
+		"Member": "Войсков Григорий",
+		"MemberID": "cb624b54-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 192,
+		"Position": 66,
+		"Member": "Кривенко Артем",
+		"MemberID": "cb624b50-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 185,
+		"Position": 67,
+		"Member": "Попов Кирилл",
+		"MemberID": "536d22f3-0df6-11ea-9822-902b34300053",
+		"Town": "Саратов"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 183,
+		"Position": 68,
+		"Member": "Павленков Александр",
+		"MemberID": "cb624b53-209c-11ea-aff2-902b34300053",
+		"Town": "Кохма"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 179,
+		"Position": 70,
+		"Member": "Дурнев Денис",
+		"MemberID": "dacf1821-1353-11ea-9822-902b34300053",
+		"Town": "Белгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 179,
+		"Position": 69,
+		"Member": "Жирнов Юрий",
+		"MemberID": "cb624b56-209c-11ea-aff2-902b34300053",
+		"Town": "Вологда"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 176,
+		"Position": 72,
+		"Member": "Хопов Павел",
+		"MemberID": "dacf1823-1353-11ea-9822-902b34300053",
+		"Town": "Краснодар"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 176,
+		"Position": 71,
+		"Member": "Щенников Семен",
+		"MemberID": "dacf1824-1353-11ea-9822-902b34300053",
+		"Town": "Саратов"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 169,
+		"Position": 73,
+		"Member": "Тимофеев Денис",
+		"MemberID": "dacf183d-1353-11ea-9822-902b34300053",
+		"Town": "Зеленоград"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 167,
+		"Position": 74,
+		"Member": "Баранов Дмитрий",
+		"MemberID": "dacf183e-1353-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 164,
+		"Position": 76,
+		"Member": "Новиков Василий",
+		"MemberID": "cb624b52-209c-11ea-aff2-902b34300053",
+		"Town": "Череповец"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 164,
+		"Position": 75,
+		"Member": "Пархачев Павел",
+		"MemberID": "cb624b60-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 163,
+		"Position": 77,
+		"Member": "Ремезов Михаил",
+		"MemberID": "cb624b5f-209c-11ea-aff2-902b34300053",
+		"Town": "Череповец"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 6,
+		"Rating": 161,
+		"Position": 78,
+		"Member": "Суворов Павел",
+		"MemberID": "536d22fe-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 159,
+		"Position": 79,
+		"Member": "Фатеев Глеб",
+		"MemberID": "cb624b4c-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 158,
+		"Position": 80,
+		"Member": "Финогеев Игорь",
+		"MemberID": "9ead8da5-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 152,
+		"Position": 81,
+		"Member": "Талатин Евгений",
+		"MemberID": "cb624b57-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 150,
+		"Position": 82,
+		"Member": "Ахтямов Максим",
+		"MemberID": "dacf1825-1353-11ea-9822-902b34300053",
+		"Town": "Дзержинск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 149,
+		"Position": 83,
+		"Member": "Абрамов Андрей",
+		"MemberID": "cb624b4a-209c-11ea-aff2-902b34300053",
+		"Town": "Шуя"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 147,
+		"Position": 84,
+		"Member": "Бойков Сергей",
+		"MemberID": "86421f12-0f55-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 137,
+		"Position": 85,
+		"Member": "Сиклицкий Сергей",
+		"MemberID": "536d22ef-0df6-11ea-9822-902b34300053",
+		"Town": "Саратов"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 137,
+		"Position": 86,
+		"Member": "Селезнев Константин",
+		"MemberID": "9ead8da6-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 136,
+		"Position": 87,
+		"Member": "Лакеев Игнатий",
+		"MemberID": "536d22f2-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 136,
+		"Position": 88,
+		"Member": "Нефедов Роман",
+		"MemberID": "9ead8da7-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 132,
+		"Position": 89,
+		"Member": "Тимофеев Антон",
+		"MemberID": "9ead8d96-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 128,
+		"Position": 90,
+		"Member": "Вершигор Евгений",
+		"MemberID": "9ead8da8-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 32,
+		"Rating": 127,
+		"Position": 91,
+		"Member": "Филатов Сергей",
+		"MemberID": "e1db4a75-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 125,
+		"Position": 92,
+		"Member": "Любин Игорь",
+		"MemberID": "9ead8d99-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 123,
+		"Position": 93,
+		"Member": "Привалов Алексей",
+		"MemberID": "86421f0e-0f55-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 3,
+		"Rating": 121,
+		"Position": 94,
+		"Member": "Голубев Пётр",
+		"MemberID": "da1d3908-1a45-11ea-9682-902b34300053",
+		"Town": "Владимир"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 29,
+		"Rating": 120,
+		"Position": 95,
+		"Member": "Зайцев Семён",
+		"MemberID": "e1db4a70-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 117,
+		"Position": 97,
+		"Member": "Ямушева Эвелина",
+		"MemberID": "86421f0f-0f55-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 5,
+		"Rating": 117,
+		"Position": 96,
+		"Member": "Константинов Илья",
+		"MemberID": "07a216bb-0f6a-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 117,
+		"Position": 98,
+		"Member": "Бушмин Евгений",
+		"MemberID": "2b57d6bf-1bdb-11ea-9aaa-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 116,
+		"Position": 99,
+		"Member": "Щегольков Роман",
+		"MemberID": "2e76f793-674b-11ea-96ca-902b34300053",
+		"Town": "Павлово"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 116,
+		"Position": 100,
+		"Member": "Логвинов Артём",
+		"MemberID": "9ead8da9-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 25,
+		"Rating": 112,
+		"Position": 101,
+		"Member": "Пашкеев Владимир",
+		"MemberID": "37b83aef-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 111,
+		"Position": 102,
+		"Member": "Каменских Дмитрий",
+		"MemberID": "2b57d6c1-1bdb-11ea-9aaa-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 109,
+		"Position": 103,
+		"Member": "Борзых Сергей",
+		"MemberID": "dacf1827-1353-11ea-9822-902b34300053",
+		"Town": "Белгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 109,
+		"Position": 104,
+		"Member": "Гринев Евгений",
+		"MemberID": "2b57d6c0-1bdb-11ea-9aaa-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 101,
+		"Position": 105,
+		"Member": "Денисов Денис",
+		"MemberID": "cb624b64-209c-11ea-aff2-902b34300053",
+		"Town": "Иваново"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 21,
+		"Rating": 100,
+		"Position": 106,
+		"Member": "Добряков Константин",
+		"MemberID": "e1db4a61-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 99,
+		"Position": 107,
+		"Member": "Паламодов Александр",
+		"MemberID": "cb624b5a-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 95,
+		"Position": 108,
+		"Member": "Григорьев Иван",
+		"MemberID": "dacf1829-1353-11ea-9822-902b34300053",
+		"Town": "Обнинск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 89,
+		"Position": 109,
+		"Member": "Шумилов Александр",
+		"MemberID": "536d22f1-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 88,
+		"Position": 110,
+		"Member": "Краев Вадим",
+		"MemberID": "50c80d5d-eb63-11ea-b11d-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 20,
+		"Rating": 85,
+		"Position": 111,
+		"Member": "Щукин Сергей",
+		"MemberID": "e1db4a71-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 83,
+		"Position": 112,
+		"Member": "Бочкарев Владимир",
+		"MemberID": "9ead8daa-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 83,
+		"Position": 113,
+		"Member": "Колясников Ян",
+		"MemberID": "50c80d5e-eb63-11ea-b11d-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 82,
+		"Position": 114,
+		"Member": "Бочкарев Алексей",
+		"MemberID": "9ead8dab-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 19,
+		"Rating": 82,
+		"Position": 115,
+		"Member": "Шульга Василь",
+		"MemberID": "e1db4a79-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 81,
+		"Position": 118,
+		"Member": "Корешков Арсений",
+		"MemberID": "9ead8dac-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 81,
+		"Position": 116,
+		"Member": "Запрягалов Дмитрий",
+		"MemberID": "cb624b5b-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 81,
+		"Position": 117,
+		"Member": "Панфилов Дмитрий",
+		"MemberID": "cb624b65-209c-11ea-aff2-902b34300053",
+		"Town": "Владимир"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 79,
+		"Position": 119,
+		"Member": "Шеменков Алексей",
+		"MemberID": "536d22f4-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 78,
+		"Position": 120,
+		"Member": "Сафин Тимур",
+		"MemberID": "2b57d6c2-1bdb-11ea-9aaa-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 78,
+		"Position": 122,
+		"Member": "Пекарев Виктор",
+		"MemberID": "cb624b62-209c-11ea-aff2-902b34300053",
+		"Town": "Кострома"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 18,
+		"Rating": 78,
+		"Position": 121,
+		"Member": "Шаповалов Николай",
+		"MemberID": "e1db4a7d-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 77,
+		"Position": 123,
+		"Member": "Маринин Иван",
+		"MemberID": "cb624b59-209c-11ea-aff2-902b34300053",
+		"Town": "Иваново"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 21,
+		"Rating": 76,
+		"Position": 125,
+		"Member": "Лезненко Роман",
+		"MemberID": "37b83b04-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 76,
+		"Position": 124,
+		"Member": "Павленков Валерий",
+		"MemberID": "cb624b4e-209c-11ea-aff2-902b34300053",
+		"Town": "Кохма"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 18,
+		"Rating": 75,
+		"Position": 126,
+		"Member": "Гончаров Александр",
+		"MemberID": "37b83b08-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 16,
+		"Rating": 73,
+		"Position": 127,
+		"Member": "Шелегатский Александр",
+		"MemberID": "37b83b03-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 12,
+		"Rating": 71,
+		"Position": 128,
+		"Member": "Жалнин Евгений",
+		"MemberID": "e1db4a7e-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 17,
+		"Rating": 71,
+		"Position": 129,
+		"Member": "Латышов Константин",
+		"MemberID": "e1db4a8a-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 15,
+		"Rating": 70,
+		"Position": 130,
+		"Member": "Жуков Евгений",
+		"MemberID": "e1db4a6c-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Большой Камень"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 69,
+		"Position": 131,
+		"Member": "Калягин Даниил",
+		"MemberID": "536d22ff-0df6-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 68,
+		"Position": 132,
+		"Member": "Абрамов Константин",
+		"MemberID": "80b9aa61-159e-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 18,
+		"Rating": 67,
+		"Position": 133,
+		"Member": "Морозов Андрей мл.",
+		"MemberID": "e1db4a73-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 17,
+		"Rating": 64,
+		"Position": 134,
+		"Member": "Кусей Никита",
+		"MemberID": "37b83b09-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 64,
+		"Position": 135,
+		"Member": "Рыбаков Никита",
+		"MemberID": "80b9aa62-159e-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 62,
+		"Position": 136,
+		"Member": "Артёмов Владислав",
+		"MemberID": "80b9aa64-159e-11ea-9822-902b34300053",
+		"Town": "Пенза"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 61,
+		"Position": 137,
+		"Member": "Синягин Владимир",
+		"MemberID": "80b9aa65-159e-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 14,
+		"Rating": 60,
+		"Position": 138,
+		"Member": "Высоцкий Иван",
+		"MemberID": "37b83b0a-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 60,
+		"Position": 140,
+		"Member": "Барышев Дмитрий",
+		"MemberID": "80b9aa66-159e-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 17,
+		"Rating": 60,
+		"Position": 139,
+		"Member": "Волосников Максим",
+		"MemberID": "e1db4a8b-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 14,
+		"Rating": 56,
+		"Position": 141,
+		"Member": "Жуков Владимир",
+		"MemberID": "e1db4a83-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Большой Камень"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 13,
+		"Rating": 54,
+		"Position": 143,
+		"Member": "Зайцев Виктор",
+		"MemberID": "37b83af1-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 14,
+		"Rating": 54,
+		"Position": 142,
+		"Member": "Машников Сергей",
+		"MemberID": "37b83b07-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 12,
+		"Rating": 53,
+		"Position": 144,
+		"Member": "Ксионжер Илья",
+		"MemberID": "e1db4a88-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 12,
+		"Rating": 49,
+		"Position": 146,
+		"Member": "Корженевский Алексей",
+		"MemberID": "37b83b0b-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 12,
+		"Rating": 49,
+		"Position": 145,
+		"Member": "Скуковский Сергей",
+		"MemberID": "e1db4a7a-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Большой Камень"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 14,
+		"Rating": 48,
+		"Position": 147,
+		"Member": "Вишнепольский Михаил",
+		"MemberID": "e1db4a72-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 14,
+		"Rating": 47,
+		"Position": 148,
+		"Member": "Волосников Иван",
+		"MemberID": "37b83b06-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 11,
+		"Rating": 37,
+		"Position": 149,
+		"Member": "Козак Михаил",
+		"MemberID": "37b83af0-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 36,
+		"Position": 150,
+		"Member": "Самуйлов Антон",
+		"MemberID": "2fa75cd8-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 35,
+		"Position": 151,
+		"Member": "Смирнова Кристина",
+		"MemberID": "e1db4a86-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 11,
+		"Rating": 34,
+		"Position": 153,
+		"Member": "Вишнепольский Алексей",
+		"MemberID": "37b83afa-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 10,
+		"Rating": 34,
+		"Position": 154,
+		"Member": "Яковенко Данил",
+		"MemberID": "e1db4a7c-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 34,
+		"Position": 152,
+		"Member": "Вовиков Тимур",
+		"MemberID": "ada92627-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 33,
+		"Position": 155,
+		"Member": "Нор Иван",
+		"MemberID": "2fa75cd4-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 33,
+		"Position": 158,
+		"Member": "Кузнецов Даниил",
+		"MemberID": "2fa75cdb-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 33,
+		"Position": 156,
+		"Member": "Батухин Константин",
+		"MemberID": "044a8501-223e-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 33,
+		"Position": 159,
+		"Member": "Кялвияйнен Владислав",
+		"MemberID": "044a8504-223e-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 33,
+		"Position": 157,
+		"Member": "Разумный Сергей",
+		"MemberID": "044a8505-223e-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 32,
+		"Position": 162,
+		"Member": "Пиунов Андрей",
+		"MemberID": "9ead8d91-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 32,
+		"Position": 160,
+		"Member": "Чан Максим",
+		"MemberID": "e1db4a6e-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 32,
+		"Position": 161,
+		"Member": "Козаченко Артём",
+		"MemberID": "ada92626-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 31,
+		"Position": 165,
+		"Member": "Бабкин Дмитрий",
+		"MemberID": "2fa75ce2-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 31,
+		"Position": 163,
+		"Member": "Мерсалов Алексей",
+		"MemberID": "03c98f44-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 31,
+		"Position": 166,
+		"Member": "Долженков Алексей",
+		"MemberID": "37b83af5-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 31,
+		"Position": 164,
+		"Member": "Малиновский Илья",
+		"MemberID": "e1db4a84-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 30,
+		"Position": 167,
+		"Member": "Бельтюков Александр",
+		"MemberID": "2fa75cd9-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 30,
+		"Position": 168,
+		"Member": "Сущинский Егор",
+		"MemberID": "e1db4a6d-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 29,
+		"Position": 170,
+		"Member": "Кудрявцев Михаил",
+		"MemberID": "044a8503-223e-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 29,
+		"Position": 169,
+		"Member": "Борзыкин Алексей",
+		"MemberID": "ada9262d-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 9,
+		"Rating": 28,
+		"Position": 171,
+		"Member": "Иванов Андрей",
+		"MemberID": "2fa75cd7-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 27,
+		"Position": 172,
+		"Member": "Шумакевич Андрей",
+		"MemberID": "37b83afb-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 26,
+		"Position": 173,
+		"Member": "Решетников Роман",
+		"MemberID": "37b83b05-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 8,
+		"Rating": 25,
+		"Position": 176,
+		"Member": "Фетисов Иван",
+		"MemberID": "2fa75cde-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 25,
+		"Position": 175,
+		"Member": "Бровкин Иван",
+		"MemberID": "2fa75cdf-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 25,
+		"Position": 177,
+		"Member": "Пойлов Илья",
+		"MemberID": "37b83af2-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 25,
+		"Position": 174,
+		"Member": "Гордиенко Василий",
+		"MemberID": "e1db4a82-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 24,
+		"Position": 178,
+		"Member": "Федоров Михаил",
+		"MemberID": "9ead8d92-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 24,
+		"Position": 179,
+		"Member": "Кузмичёв Николай",
+		"MemberID": "e1db4a76-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 24,
+		"Position": 180,
+		"Member": "Ирхин Платон",
+		"MemberID": "e1db4a87-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 23,
+		"Position": 182,
+		"Member": "Кузьмин Даниил",
+		"MemberID": "2fa75cd0-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 23,
+		"Position": 181,
+		"Member": "Ирхин Герман",
+		"MemberID": "e1db4a85-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 21,
+		"Position": 184,
+		"Member": "Рыбальченко Михаил",
+		"MemberID": "2fa75ccd-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 7,
+		"Rating": 21,
+		"Position": 185,
+		"Member": "Павлов Николай",
+		"MemberID": "2fa75cda-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 21,
+		"Position": 183,
+		"Member": "Морозов Андрей ст.",
+		"MemberID": "37b83af8-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 21,
+		"Position": 186,
+		"Member": "Тереханов Сергей",
+		"MemberID": "ee43f1c0-681d-11ea-96ca-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 20,
+		"Position": 187,
+		"Member": "Клишин Василий",
+		"MemberID": "a867154c-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 19,
+		"Position": 188,
+		"Member": "Кошелев Александр",
+		"MemberID": "37b83af3-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 6,
+		"Rating": 18,
+		"Position": 189,
+		"Member": "Корбут Александр",
+		"MemberID": "37b83af4-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 17,
+		"Position": 190,
+		"Member": "Черкасов Аким",
+		"MemberID": "37b83b11-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 17,
+		"Position": 191,
+		"Member": "Иванюшин Александр",
+		"MemberID": "e1db4a81-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 16,
+		"Position": 192,
+		"Member": "Дульнев Дмитрий",
+		"MemberID": "2fa75ce1-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 5,
+		"Rating": 15,
+		"Position": 193,
+		"Member": "Крючков Николай",
+		"MemberID": "2fa75cd5-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 14,
+		"Position": 194,
+		"Member": "Бондаренко Тарас",
+		"MemberID": "e1db4a80-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 14,
+		"Position": 195,
+		"Member": "Кибинская Елизавета",
+		"MemberID": "1e842659-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 14,
+		"Position": 196,
+		"Member": "Хлюстов Сергей",
+		"MemberID": "1e84265d-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 13,
+		"Position": 197,
+		"Member": "Погорелов Юрий",
+		"MemberID": "03c98f4b-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 13,
+		"Position": 200,
+		"Member": "Кайдалов Илья",
+		"MemberID": "03c98f57-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 13,
+		"Position": 198,
+		"Member": "Валуйский Антон",
+		"MemberID": "37b83b10-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 13,
+		"Position": 201,
+		"Member": "Колесников Анатолий",
+		"MemberID": "ada9262e-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 13,
+		"Position": 199,
+		"Member": "Ксионжер Андрей",
+		"MemberID": "a867154b-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 12,
+		"Position": 202,
+		"Member": "Сапронов Павел",
+		"MemberID": "03c98f45-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 12,
+		"Position": 203,
+		"Member": "Минин Андрей",
+		"MemberID": "03c98f55-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 4,
+		"Rating": 12,
+		"Position": 204,
+		"Member": "Русинов Алексей",
+		"MemberID": "1e84265b-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 11,
+		"Position": 206,
+		"Member": "Шибаев Александр",
+		"MemberID": "ada92623-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 11,
+		"Position": 205,
+		"Member": "Латышов Артём",
+		"MemberID": "ada92633-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 11,
+		"Position": 207,
+		"Member": "Масенко Евгений",
+		"MemberID": "ada92638-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 10,
+		"Position": 211,
+		"Member": "Дружков Роман",
+		"MemberID": "ee43f1c1-681d-11ea-96ca-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 10,
+		"Position": 212,
+		"Member": "Муравьев Павел",
+		"MemberID": "2500d19a-0f52-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 10,
+		"Position": 213,
+		"Member": "Даренский Анатолий",
+		"MemberID": "e1db4a7b-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Находка"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 10,
+		"Position": 209,
+		"Member": "Чайка Алексей",
+		"MemberID": "e1db4a7f-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 3,
+		"Rating": 10,
+		"Position": 208,
+		"Member": "Кошеля Василий",
+		"MemberID": "e1a9599d-35fe-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 10,
+		"Position": 210,
+		"Member": "Русинов Игорь",
+		"MemberID": "6e6e5044-b7a3-11ea-bd97-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 9,
+		"Position": 216,
+		"Member": "Девяткин Алексей",
+		"MemberID": "2fa75ccc-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 2,
+		"Rating": 9,
+		"Position": 214,
+		"Member": "Смородин Сергей",
+		"MemberID": "03c98f4a-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 9,
+		"Position": 215,
+		"Member": "Ишков Егор",
+		"MemberID": "da1d3909-1a45-11ea-9682-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 9,
+		"Position": 218,
+		"Member": "Румянцев Евгений",
+		"MemberID": "cb624b68-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 9,
+		"Position": 219,
+		"Member": "Клишин Данил",
+		"MemberID": "a867154e-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 3,
+		"Rating": 9,
+		"Position": 217,
+		"Member": "Козак Артём",
+		"MemberID": "27849639-a480-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 8,
+		"Position": 221,
+		"Member": "Ганичев Илья",
+		"MemberID": "cb624b67-209c-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 8,
+		"Position": 220,
+		"Member": "Гордиенко Елизвета",
+		"MemberID": "e1db4a89-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 222,
+		"Member": "Курганский Игорь",
+		"MemberID": "03c98f51-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 227,
+		"Member": "Словинский Илья",
+		"MemberID": "03c98f54-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 228,
+		"Member": "Гоглев Дмитрий",
+		"MemberID": "03c98f5a-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 224,
+		"Member": "Решетов Всеволод",
+		"MemberID": "37b83af6-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 225,
+		"Member": "Кутылин Александр",
+		"MemberID": "ceb3dc4a-c7ca-11ea-ada2-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 223,
+		"Member": "Горбунов Виктор",
+		"MemberID": "044a8506-223e-11ea-aff2-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 7,
+		"Position": 226,
+		"Member": "Чан Владимир",
+		"MemberID": "ada9263e-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 7,
+		"Position": 229,
+		"Member": "Гетьман Владимир",
+		"MemberID": "1e84265a-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 235,
+		"Member": "Пырх Александр",
+		"MemberID": "2fa75ccb-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 236,
+		"Member": "Семенов Алексей",
+		"MemberID": "2fa75ccf-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 243,
+		"Member": "Васильев Алексей",
+		"MemberID": "2fa75cdd-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 237,
+		"Member": "Кузнецов Антон",
+		"MemberID": "03c98f43-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 230,
+		"Member": "Зыков Вадим",
+		"MemberID": "03c98f53-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 233,
+		"Member": "Погорелов Михаил",
+		"MemberID": "03c98f58-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 244,
+		"Member": "Заболотный Михаил",
+		"MemberID": "37b83b0d-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 234,
+		"Member": "Русинов Егор",
+		"MemberID": "a9af00d4-c827-11ea-ada2-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 241,
+		"Member": "Першаков Даниил",
+		"MemberID": "cb624b4f-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 232,
+		"Member": "Кощеев Виктор",
+		"MemberID": "cb624b6b-209c-11ea-aff2-902b34300053",
+		"Town": "Ярославль"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 6,
+		"Position": 238,
+		"Member": "Ильин Денис",
+		"MemberID": "ada9262f-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 6,
+		"Position": 239,
+		"Member": "Зайцев Егор",
+		"MemberID": "ada92640-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 6,
+		"Position": 242,
+		"Member": "Шевченко",
+		"MemberID": "ada92641-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 6,
+		"Position": 240,
+		"Member": "Ингелычев Денис",
+		"MemberID": "bcc13cbc-2307-11ea-bd8c-94de804bf41a",
+		"Town": "Большой Камень"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 2,
+		"Rating": 6,
+		"Position": 231,
+		"Member": "Черных Олег",
+		"MemberID": "a867154a-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 254,
+		"Member": "Ерохин Денис",
+		"MemberID": "9ead8d9a-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 252,
+		"Member": "Андронашко",
+		"MemberID": "e1db4a6f-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 251,
+		"Member": "Коваль",
+		"MemberID": "e1db4a74-218e-11ea-bd8b-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 249,
+		"Member": "Шерпаев Александр",
+		"MemberID": "ada92624-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 248,
+		"Member": "Ярёмко Иван",
+		"MemberID": "ada92625-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 247,
+		"Member": "Кузьменко Иосиф",
+		"MemberID": "ada92634-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 253,
+		"Member": "Бобровский Никита",
+		"MemberID": "ada9263c-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 246,
+		"Member": "Кухарев Александр",
+		"MemberID": "bcc13cbd-2307-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 250,
+		"Member": "Кухарев Виталий",
+		"MemberID": "bcc13cbe-2307-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 5,
+		"Position": 245,
+		"Member": "Гурьев Илья",
+		"MemberID": "1e84265e-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 257,
+		"Member": "Пластик Алексей",
+		"MemberID": "2fa75cdc-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 266,
+		"Member": "Романовский Юрий",
+		"MemberID": "03c98f41-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 267,
+		"Member": "Демида Владимир",
+		"MemberID": "03c98f4e-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 256,
+		"Member": "Салаватов Исмаил",
+		"MemberID": "03c98f52-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 259,
+		"Member": "Владимиров Юрий",
+		"MemberID": "03c98f56-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 262,
+		"Member": "Воднев Александр",
+		"MemberID": "03c98f5e-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 265,
+		"Member": "Гоглев Владислав",
+		"MemberID": "03c98f62-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 258,
+		"Member": "Коровин Всеволод",
+		"MemberID": "37b83af7-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 270,
+		"Member": "Ковалев Юрий",
+		"MemberID": "07a216bc-0f6a-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 271,
+		"Member": "Иванов Дмитрий",
+		"MemberID": "9ead8d94-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 264,
+		"Member": "Членов Вячеслав",
+		"MemberID": "9ead8d95-14ea-11ea-9822-902b34300053",
+		"Town": "Калуга"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 263,
+		"Member": "Глазунов Артем",
+		"MemberID": "9ead8d9b-14ea-11ea-9822-902b34300053",
+		"Town": "Москва"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 255,
+		"Member": "Манахов Александр",
+		"MemberID": "fc0d77fd-53b5-11ea-9a7d-902b34300053",
+		"Town": "Кстово"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 260,
+		"Member": "Крайнов Сергей",
+		"MemberID": "ceb3dc48-c7ca-11ea-ada2-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 268,
+		"Member": "Крайнов Платон",
+		"MemberID": "ceb3dc49-c7ca-11ea-ada2-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 261,
+		"Member": "Тимин Игорь",
+		"MemberID": "a867154f-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 1,
+		"Rating": 4,
+		"Position": 269,
+		"Member": "Гурьев Максим",
+		"MemberID": "1e84265f-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 274,
+		"Member": "Антонов Василий",
+		"MemberID": "2fa75cce-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 273,
+		"Member": "Шейко Алексей",
+		"MemberID": "2fa75cd2-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 298,
+		"Member": "Шняков Андрей",
+		"MemberID": "2fa75cd3-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 297,
+		"Member": "Востриков Максим",
+		"MemberID": "2fa75cd6-2243-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 283,
+		"Member": "Мелиев Насим",
+		"MemberID": "03c98f42-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 280,
+		"Member": "Васильев Влексей",
+		"MemberID": "03c98f46-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 284,
+		"Member": "Пластинин Денис",
+		"MemberID": "03c98f49-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 288,
+		"Member": "Черемис Александр",
+		"MemberID": "03c98f4c-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 290,
+		"Member": "Софронов Игорь",
+		"MemberID": "03c98f4d-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 0,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 278,
+		"Member": "Маринич Роман",
+		"MemberID": "03c98f5b-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 277,
+		"Member": "Кольцов Роман",
+		"MemberID": "03c98f5d-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 276,
+		"Member": "Кольцов Дмитрий",
+		"MemberID": "03c98f5f-2246-11ea-8257-902b34300053",
+		"Town": "Санкт-Питербург"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 296,
+		"Member": "Чирцов Даниил",
+		"MemberID": "37b83b0c-221c-11ea-9026-30b5c21e0e44",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 286,
+		"Member": "Хайдяров Марат",
+		"MemberID": "07a216bd-0f6a-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 285,
+		"Member": "Серов Максим",
+		"MemberID": "07a216be-0f6a-11ea-9822-902b34300053",
+		"Town": "Дзержинск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 282,
+		"Member": "Зайцев Александр",
+		"MemberID": "07a216bf-0f6a-11ea-9822-902b34300053",
+		"Town": "Нижний Новгород"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 272,
+		"Member": "Судольский Вячеслав",
+		"MemberID": "a8af8d9c-cae3-11ea-ada2-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 279,
+		"Member": "Антонов Никита",
+		"MemberID": "cb624b5c-209c-11ea-aff2-902b34300053",
+		"Town": "Иваново"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 275,
+		"Member": "Нехаев Владислав",
+		"MemberID": "cb624b69-209c-11ea-aff2-902b34300053",
+		"Town": "Вологда"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": 1,
+		"Count": 2,
+		"Rating": 3,
+		"Position": 289,
+		"Member": "Журавлёв Александр",
+		"MemberID": "ada92637-22c3-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 292,
+		"Member": "Крутаков Степан",
+		"MemberID": "a867154d-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 295,
+		"Member": "Смольников Илья",
+		"MemberID": "a8671550-3201-11ea-bd8c-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 293,
+		"Member": "Груздев Владимир",
+		"MemberID": "e1a9599f-35fe-11ea-bd8c-94de804bf41a",
+		"Town": "Камень-Рыболов"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 291,
+		"Member": "Коваль Руслан",
+		"MemberID": "2aab3b0a-4b2c-11ea-bd8f-94de804bf41a",
+		"Town": "Уссурийск"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 287,
+		"Member": "Залога Михаил",
+		"MemberID": "2784963a-a480-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 281,
+		"Member": "Каменщиков Дмитрий",
+		"MemberID": "2784963c-a480-11ea-bd96-94de804bf41a",
+		"Town": "Чита"
+	},
+	{
+		"Division": "4 разряд",
+		"RatingChange": -1,
+		"Count": 1,
+		"Rating": 3,
+		"Position": 294,
+		"Member": "Касавцов Алексей",
+		"MemberID": "1e84265c-af03-11ea-bd96-94de804bf41a",
+		"Town": "Владивосток"
+	}
+]

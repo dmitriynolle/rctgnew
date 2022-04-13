@@ -1,0 +1,125 @@
+<div style="width: 100%" class="p-4">
+
+  <!-- Выборб добавление и настройка вида соревнования -->
+
+  <div *ngIf="visibleUser == 1">
+    <span>Выберите или добавте соревнование</span>
+    <div class="row mb-3">
+      <select *ngIf="visibleNameGames != 0" class="big p-2 col-10" [(ngModel)]="gamesName"
+              (change)="getSelectNameGames()" name="game" id="1">
+        <option value="0">Выберите соревнование</option>
+        <option *ngFor="let item of games" value="{{item.namegames}}">{{item.namegames}}</option>
+      </select>
+      <input *ngIf="visibleNameGames == 0" type="text" class="big p-2 col-12"
+             placeholder="Введите название соревнования" [(ngModel)]="gamesName">
+      <div *ngIf="visibleNameGames == 1" class="col-2 bg p-2" style="text-align: center">
+        <img *ngIf="addEditNameGames == 0 && visibleNameGames == 1" src="../../../assets/plus.png"
+             (click)="setAddGames()">
+        <img *ngIf="addEditNameGames == 1 && visibleNameGames == 1" src="../../../assets/pen_1.png"
+             (click)="visibleNameGames = 0; addEditNameGames = 1;">
+      </div>
+    </div>
+    <div *ngIf="visibleNameGames == 0">
+      <span>Выберите количество спец участков</span>
+      <div class="form-check form-check-inline m-2" style="width: 100%">
+      <span *ngFor="let item of [1,2,3,4,5]" class="p-2 big" style="width: 20%; text-align: center"
+            [class.bg]="getSelectSu(item)"
+            (click)="su = item">{{item}}</span>
+      </div>
+      <div *ngFor="let item of shtrafBall let i = index">
+        <span *ngIf="i == 0" class="row bg">
+          <span class="col-7">Настройка времени этапа</span>
+          <span class="col-2" style="text-align: center">ШБ</span>
+          <span class="col-1">Мин</span>
+          <span class="col-1">Коэф</span>
+        </span>
+        <span *ngIf="i == 2" class="row bg">
+          <span class="col-7">Настройка пенализации</span>
+          <span class="col-2" style="text-align: center">ШБ</span>
+          <span class="col-1">без ШБ</span>
+          <span class="col-1">Коэф</span>
+        </span>
+        <div class="row py-1">
+          <div *ngIf="i < 2" class="col-7 py-2">{{item.shtrafname}}</div>
+          <div *ngIf="i < 2" class="col-2 py-2"style="text-align: center">
+            <span *ngIf="i != 0">{{item.shtrafball}}</span></div>
+          <div *ngIf="i > 1"class="col-7 py-2" [class.bg]="ball[i]" (click)="getSelectBall(i, item.id)">{{item.shtrafname}}</div>
+          <div *ngIf="i > 1"class="col-2 py-2" [class.bg]="ball[i]" (click)="getSelectBall(i, item.id)"style="text-align: center">
+            {{item.shtrafball}}</div>
+          <div class="col-1 py-1">
+            <input [(ngModel)]="nameGames[i].ball" style="width: 30px; text-align: center">
+          </div>
+          <div *ngIf="i != 0" class="col-1 py-1">
+            <input type="checkbox" class="m-2 ml-3" [(ngModel)]="nameGames[i].factor">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3" style="text-align: center">
+        <button [disabled]="!gamesName || su == 0" *ngIf="addEditNameGames == 0 && visibleNameGames == 0"
+                class="col-10 bg py-3" (click)="setAddSaveGames()">
+          <img src="../../../assets/diskette.png">
+        </button>
+        <div *ngIf="addEditNameGames == 1 && visibleNameGames == 0" class="col-10 bg py-2"
+              (click)="setEditSaveGames()">
+          <img src="../../../assets/diskette.png">
+        </div>
+        <div *ngIf="visibleNameGames == 0" class="col-2  bg py-3" (click)="visibleNameGames = 1">
+          <img src="../../../assets/close.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Выбор, добавление и настройка участника соревнования-->
+
+  <div *ngIf="visibleNameGames == 1 && gamesName != '0'">
+    <span *ngIf="userRegistred == 0">Выберите или добавте участника</span>
+    <span *ngIf="userRegistred == 1" class="text-danger">Пользователь уже зарегестрирован</span>
+    <span *ngIf="userRegistred == 2" class="text-danger">Нет такого пользователя</span>
+    <span *ngIf="userRegistred == 3" class="text-danger">Это Имя или Номер уже используются</span>
+    <div class="row mb-2">
+        <select *ngIf="visibleUser != 0" class="big p-2 col-10" [(ngModel)]="userName" id="2"
+                (change)="getSelectUser()">
+          <option value="0">Выберите участника</option>
+          <option *ngFor="let item of users" value="{{item.username}}{{item.factor}}">{{item.username}}&#8194;K{{item.factor}}</option>
+        </select>
+        <input *ngIf="visibleUser == 0" type="text" class="big p-2 col-12" placeholder="Введите ФИ участника"
+               [(ngModel)]="userName">
+      <div *ngIf="visibleUser == 1" class="col-2 bg p-2" style="text-align: center">
+        <img *ngIf="addEditUser == 0 && visibleUser == 1" src="../../../assets/plus.png"
+             (click)="setAddUser()">
+        <img *ngIf="addEditUser == 1 && visibleUser == 1" src="../../../assets/pen_1.png"
+             (click)="addEditUser = 1; visibleUser = 0">
+      </div>
+    </div>
+    <div *ngIf="visibleUser == 0" class="mt-3">Введите номер и выберите класс</div>
+    <div *ngIf="visibleUser == 1" class="row mt-3" style="text-align: center">
+      <div class="col-3">Номер</div>
+      <div class="col-9">Класс</div>
+    </div>
+    <div class="row">
+      <input type="text" class="col-3 big py-2" style="text-align: center" [(ngModel)]="userNumber">
+      <div *ngFor="let item of [1,2]" class="col-4 p-2 big" style="text-align: center"
+            [class.bg]="getSelectFactor(item)"
+            (click)="factor = item">K {{item}}</div>
+    </div>
+    <div class="row mt-4" style="text-align: center">
+      <button *ngIf="addEditUser == 0 && visibleUser == 0" class="col-10 bg py-3"
+              [disabled]="!userName || !userNumber || factor == 0" (click)="setAddSaveUser()">
+        <img src="../../../assets/diskette.png">
+      </button>
+      <div *ngIf="addEditUser == 1 && visibleUser == 0" class="col-10 bg py-3" (click)="setEditSaveUser()">
+        <img src="../../../assets/diskette.png">
+      </div>
+      <div *ngIf="visibleUser == 0" class="col-2 bg py-3" (click)="visibleUser = 1">
+        <img src="../../../assets/close.png">
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3" *ngIf="visibleNameGames == 1 && visibleUser == 1">
+    <div class="col-2 p-3 bg" style="text-align: center" [routerLink]="['/org']"><img src="../../../assets/close.png"></div>
+      <button class="col-10 bg big" style="width: 100%"
+              [disabled]="(userName == '0' || userRegistred == 1) || gamesName == '0'" (click)="saveEtap()">Записать
+      </button>
+  </div>
+</div>

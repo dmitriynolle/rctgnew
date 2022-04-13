@@ -1,0 +1,77 @@
+<div style="display: flex; padding: 50px 0">
+  <form [formGroup]="clientForm" novalidate style="margin: auto">
+
+    <div class="mb-3">
+      <label>Логин</label>
+      <input class="form-control" type="text" formControlName="login"
+             placeholder="Введите логин (*)"
+             [ngClass]="{error_border:_login.errors?.required, ok_border:!_login.errors?.required}">
+      <div class="error">
+        <small class="{{validStyle[5]}}">Длина минимум 4<br></small>
+        <small class="{{validStyle[6]}}">Только латинские буквы<br></small>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col">
+        <label>Фамилия</label>
+        <input class="form-control" style="width: 220pt" type="text" formControlName="lastName"
+               placeholder="Введите Фамилию (*)"
+               [ngClass]="{error_border:_lastName.errors?.required, ok_border:!_lastName.errors?.required}">
+        <div class="error">
+          <small class="{{validStyle[7]}}">Только русские буквы<br></small>
+        </div>
+      </div>
+      <div class="col">
+        <label>Имя</label>
+        <input class="form-control" style="width: 220pt" type="text" formControlName="firstName"
+               placeholder="Введите Имя (*)"
+               [ngClass]="{error_border:_firstName.errors?.required, ok_border:!_firstName.errors?.required}">
+        <div class="error">
+          <small class="{{validStyle[8]}}">Только русские буквы<br></small>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col">
+        <label>Пароль</label>
+        <div class="input-group mb-2">
+          <input class="form-control" style="width: 170pt" type="{{passwordCheck}}" formControlName="password"
+                 placeholder="Введите пароль (*)"
+                 [ngClass]="{error_border:_password.errors?.required, ok_border:!_password.errors?.required}">
+          <div class="input-group-append">
+            <div class="input-group-text" (click)="passwordVisibleHide()">@</div>
+          </div>
+        </div>
+        <div class="error">
+          <small class="{{validStyle[1]}}">Длина минимум 8<br></small>
+          <small class="{{validStyle[2]}}">Должен содержать цифры<br></small>
+          <small class="{{validStyle[3]}}">Должен содержать заглавные латинские буквы<br></small>
+          <small class="{{validStyle[4]}}">Должен содержать строчные латинские буквы<br></small>
+        </div>
+      </div>
+      <div class="col">
+        <label>Повторите пароль</label>
+        <div class="input-group mb-2">
+          <input class="form-control" style="width: 170pt" type="{{passwordCheck}}" formControlName="secondPassword"
+                 placeholder="Введите пароль (*)"
+                 [ngClass]="{error_border:_secondPassword.errors?.required, ok_border:!_secondPassword.errors?.required}">
+          <div class="input-group-append">
+            <div class="input-group-text" (click)="passwordVisibleHide()">@</div>
+          </div>
+        </div>
+        <div class="error">
+          <small class="{{validStyle[9]}}">Пароли должны быть идентичны<br></small>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: end">
+      <button type="submit" class="btn btn-primary"
+              [disabled]="this.validStyle[5] == 'error' || this.validStyle[6] == 'error' || this.validStyle[7] == 'error'
+            || this.validStyle[8] == 'error' || this.validStyle[1] == 'error' || this.validStyle[2] == 'error' || this.validStyle[3] == 'error'
+            || this.validStyle[4] == 'error' || this.validStyle[9] == 'error'">
+        Регистрация
+      </button>
+    </div>
+  </form>
+</div>

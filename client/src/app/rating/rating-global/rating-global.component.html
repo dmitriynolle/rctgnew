@@ -1,0 +1,28 @@
+<div class="m-2">
+  <table class="big14" style="width: 100%">
+    <thead>
+    <tr style="border-bottom: solid 2px black">
+      <th>№</th>
+      <th style="width: 10px"></th>
+      <th>Участник</th>
+      <th>населеный пункт</th>
+      <th>Дивизион</th>
+      <th style="text-align: center">Рейтинг</th>
+      <th style="text-align: center">Кол-во мероп</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of ratingNN; let i = index" style="border-bottom: solid 1px black" class="cursor"  [routerLink]="['/ratingPilotov', item.MemberID, 'Global']">
+      <td>{{item.Position}}</td>
+      <td *ngIf="item.RatingChange == 1"><img src="../../../assets/arrow (1).png" height="10px" width="10px"/></td>
+      <td *ngIf="item.RatingChange == -1"><img src="../../../assets/arrow.png" height="10px" width="10px"/></td>
+      <td *ngIf="item.RatingChange == 0"></td>
+      <td class="px-2">{{item.Member}}</td>
+      <td>{{item.Town}}</td>
+      <td>{{item.Division}}</td>
+      <td style="text-align: center">{{item.Rating}}</td>
+      <td style="text-align: center">{{item.Count}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
