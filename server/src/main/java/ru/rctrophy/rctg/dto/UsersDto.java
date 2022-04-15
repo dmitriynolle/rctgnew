@@ -10,11 +10,13 @@ public class UsersDto {
 
     private Long id;
     private int number;
+    private String login;
     private String name;
 
     public UsersDto(Users users){
         this.id = users.getId();
         this.number = users.getNumber();
+        this.login = users.getLogin();
         this.name = users.getName();
     }
 }
