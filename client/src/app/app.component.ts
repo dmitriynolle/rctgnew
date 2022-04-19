@@ -7,17 +7,9 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'nnrctg';
-  private active: Array<string> = [];
-  fon = 'fon_big';
-
-  ngOnInit(): void {
-    this.active[0] = 'buttom_color';
+  constructor() {
   }
+  ngOnInit(): void {
 
-  serActive(num: number) {
-    for (let i = 0; i < this.active.length; i++) {
-      this.active[i] = null;
-    }
-    this.active[num] = 'buttom_color';
   }
 }

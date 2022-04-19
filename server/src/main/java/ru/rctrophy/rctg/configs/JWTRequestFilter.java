@@ -23,6 +23,7 @@ public class JWTRequestFilter extends OncePerRequestFilter {
 
     private final String AUTH_HEADER_NAME = "Authorization";
     private final String AUTH_HEADER_START_LETTERS = "Bearer ";
+    private final String REQUEST_URI = "all";
 
     private final JWTTokenUtils jwtTokenUtil;
 
@@ -32,12 +33,13 @@ public class JWTRequestFilter extends OncePerRequestFilter {
 
         String username = null;
         String jwt = null;
-        if (authHeader != null && authHeader.startsWith(AUTH_HEADER_START_LETTERS)) {
+        if (authHeader != null && authHeader.startsWith(AUTH_HEADER_START_LETTERS) && !request.getRequestURI().contains(REQUEST_URI)) {
             jwt = authHeader.substring(AUTH_HEADER_START_LETTERS.length());
             try {
                 username = jwtTokenUtil.getUsernameFromToken(jwt);
             } catch (ExpiredJwtException | SignatureException e) {
                 response.setStatus(401);
+                response.sendError(401,"Пожалуйста перелогинтесь");
                 return;
             }
         }

@@ -1,22 +1,6 @@
 <body>
 <div class="body">
-    <div class="header_menu">
-      <div class="header_menu_img cursor">
-        <img src="assets/logoTrophyNnLong.png" alt="logo" width="337px">
-      </div>
-      <div class="header_menu_buttom cursor {{active[0]}}" [routerLink]="['']" (click)="serActive(0)">Главная</div>
-      <div class="nav-item dropdown">
-        <div class="header_menu_buttom cursor {{active[1]}}" data-toggle="dropdown" aria-haspopup="true">Результаты</div>
-        <div class="dropdown-menu border" style="width: 100%">
-          <div class="dropdown-item py-3 cursor" [routerLink]="['org2']" (click)="serActive(1)">Результаты</div>
-          <div class="dropdown-item py-3 cursor" [routerLink]="['ratingNN']" (click)="serActive(1)">Рейтинг НН</div>
-          <div class="dropdown-item py-3 cursor" [routerLink]="['ratingGlobal']" (click)="serActive(1)">Рейтинг глоб.
-          </div>
-        </div>
-      </div>
-      <div class="header_menu_buttom cursor {{active[2]}}" (click)="serActive(2)">Мероприятия</div>
-      <div class="header_menu_buttom buttom_border buttom_color cursor {{active[3]}}" [routerLink]="['login']" (click)="serActive(3)">Вход</div>
-    </div>
+  <app-header></app-header>
   <router-outlet></router-outlet>
   <app-footer></app-footer>
 </div>

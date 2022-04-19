@@ -4,12 +4,12 @@ import {Repository} from '../../data/repository';
 import {EtapView} from '../../data/registration';
 import {sortBy} from 'sort-by-typescript';
 import {UserEtapStata} from '../../data/shtraf';
-import {StagesName} from "../../data/entities/StagesName";
-import {StagesNameController} from "../../data/controllers/StagesNameController";
-import {StagesController} from "../../data/controllers/StagesController";
-import {Stages} from "../../data/entities/Stages";
-import {UsersStagesDataController} from "../../data/controllers/UsersStagesDataController";
-import {UsersSatgesData} from "../../data/entities/UsersSatgesData";
+import {StagesName} from "../../entities/StagesName";
+import {StagesNameController} from "../../controllers/StagesNameController";
+import {StagesController} from "../../controllers/StagesController";
+import {Stages} from "../../entities/Stages";
+import {UsersStagesDataController} from "../../controllers/UsersStagesDataController";
+import {UsersSatgesData} from "../../entities/UsersSatgesData";
 
 
 @Component({

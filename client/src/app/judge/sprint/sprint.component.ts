@@ -3,7 +3,7 @@ import {NameGames} from '../../data/user.model';
 import {Repository} from '../../data/repository';
 import {EtapView} from '../../data/registration';
 import {Subscription, timer} from 'rxjs';
-import {StagesNameController} from "../../data/controllers/StagesNameController";
+import {StagesNameController} from "../../controllers/StagesNameController";
 
 @Component({
   selector: 'app-sprint',

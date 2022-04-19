@@ -43,7 +43,7 @@
     </table>
   </div>
 
-  <div *ngFor="let item of usersSatgesData; index as i" [hidden]="popupVisible">
+  <div *ngFor="let item of usersSatgesData; index as i" [hidden]="popupVisible" class="big14">
     <div class="row big" *ngIf="i==0">
       <div class="col-10 border py-2">{{item.stages.name}}</div>
       <div class="col-2 border py-2 bg" (click)="popupVisible = true" style="text-align: center"><img

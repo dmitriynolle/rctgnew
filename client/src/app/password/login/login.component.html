@@ -1,25 +1,27 @@
 <div style="display: flex; padding: 50px 0">
-  <form ngNativeValidate style="margin: auto">
+  <form style="margin: auto">
 
     <div class="mb-3">
       <label>Логин</label>
-      <input class="form-control w-100" type="text" placeholder="Введите логин (*)" required pattern="^[a-zA-Z]+$">
+      <input class="form-control w-100" type="text" placeholder="Введите логин (*)" required pattern="^[a-zA-Z]+$"
+      [(ngModel)]="userLogin.username" #login="ngModel" name="login">
       <small>Только латинские буквы<br></small>
     </div>
 
     <div class="mb-3">
       <label>Пароль</label>
       <div class="input-group mb-2">
-        <input class="form-control w-100" type="{{passwordCheck}}" placeholder="Введите пароль (*)" required pattern="\d{8}">
+        <input class="form-control" type="{{passwordCheck}}" placeholder="Введите пароль (*)" required minlength="4"
+        [(ngModel)]="userLogin.password" #password="ngModel" name="password">
         <div class="input-group-append">
           <div class="input-group-text" (click)="passwordVisibleHide()">@</div>
         </div>
       </div>
-      <small>Минимум 8 символов<br></small>
+      <small>Минимум 4 символов<br></small>
     </div>
 
     <div>
-      <button type="submit" class="btn btn-primary w-100 mb-3">Войти</button>
+      <button [disabled]="login.errors || password.errors" type="submit" class="btn btn-primary w-100 mb-3" (click)="loginSend()">Войти</button>
     </div>
 
     <div>

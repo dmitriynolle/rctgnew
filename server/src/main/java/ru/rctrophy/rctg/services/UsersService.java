@@ -8,6 +8,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.rctrophy.rctg.dto.UsersDto;
 import ru.rctrophy.rctg.entities.Roles;
 import ru.rctrophy.rctg.entities.Users;
@@ -29,14 +30,14 @@ public class UsersService implements UserDetailsService {
     }
 
     public Users getUserById(Long user_id) {
-        return usersRepository.findById(user_id).orElseThrow(() -> new UserNotFoundException("User not found!"));
+        return usersRepository.findById(user_id).orElseThrow(() -> new UserNotFoundException("Пользователь не найден!"));
     }
 
-    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
-        Users users = usersRepository.findUserByLogin(login).orElseThrow(() -> new UserNotFoundException("User not found!"));
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Users users = usersRepository.findUserByUsername(username).orElseThrow(() -> new UserNotFoundException("Пользователь не найден!"));
 
         return new org.springframework.security.core.userdetails.User(
-                users.getName(),
+                users.getUsername(),
                 users.getPassword(),
                 true,
                 true,
@@ -47,5 +48,14 @@ public class UsersService implements UserDetailsService {
 
     private Collection<? extends GrantedAuthority> mapRolesToAuthorities(Collection<Roles> roles) {
         return roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
+    }
+
+    public boolean isUserByLoginExists(String username) {
+        return usersRepository.findUserByUsername(username).isPresent();
+    }
+
+    @Transactional
+    public Users save(Users users) {
+        return usersRepository.save(users);
     }
 }

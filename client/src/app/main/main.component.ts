@@ -51,7 +51,7 @@ export class MainComponent implements OnInit {
             this.photosVk[j].text = this.photosVk[j].text + this.text2[k];
           }
         }
-        console.log(this.photosVk[j]);
+        // console.log(this.photosVk[j]);
         // console.log(this.text3);
         // console.log(this.photosVk[j].attachments);
       }

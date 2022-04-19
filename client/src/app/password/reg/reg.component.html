@@ -1,77 +1,72 @@
 <div style="display: flex; padding: 50px 0">
-  <form [formGroup]="clientForm" novalidate style="margin: auto">
+  <form #formLogin="ngForm" style="margin: auto">
 
-    <div class="mb-3">
-      <label>Логин</label>
-      <input class="form-control" type="text" formControlName="login"
-             placeholder="Введите логин (*)"
-             [ngClass]="{error_border:_login.errors?.required, ok_border:!_login.errors?.required}">
-      <div class="error">
-        <small class="{{validStyle[5]}}">Длина минимум 4<br></small>
-        <small class="{{validStyle[6]}}">Только латинские буквы<br></small>
+    <div class="row mb-3">
+      <div class="col-12">
+        <label>Логин</label>
+        <input class="form-control" type="text" [(ngModel)]="user.username" name="login"
+               required pattern="^[A-z 0-9]+$" minlength="3" #login="ngModel">
+        <small class="text-danger" *ngIf="login.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="login.hasError('minlength')">Не менее 3-х символов<br></small>
+        <small class="text-danger" *ngIf="login.hasError('pattern')">Использовать только латинский алфавит</small>
       </div>
     </div>
 
     <div class="row mb-3">
-      <div class="col">
+      <div class="col-6">
         <label>Фамилия</label>
-        <input class="form-control" style="width: 220pt" type="text" formControlName="lastName"
-               placeholder="Введите Фамилию (*)"
-               [ngClass]="{error_border:_lastName.errors?.required, ok_border:!_lastName.errors?.required}">
-        <div class="error">
-          <small class="{{validStyle[7]}}">Только русские буквы<br></small>
-        </div>
+        <input type="text" class="form-control" [(ngModel)]="user.lastName" name="lastName" required minlength="3"
+               pattern="^[А-я]+$" #lastName="ngModel">
+        <small class="text-danger" *ngIf="lastName.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="lastName.hasError('minlength')">Не менее 3-х символов<br></small>
+        <small class="text-danger" *ngIf="lastName.hasError('pattern')">Использовать только кирилицу</small>
       </div>
-      <div class="col">
+      <div class="col-6">
         <label>Имя</label>
-        <input class="form-control" style="width: 220pt" type="text" formControlName="firstName"
-               placeholder="Введите Имя (*)"
-               [ngClass]="{error_border:_firstName.errors?.required, ok_border:!_firstName.errors?.required}">
-        <div class="error">
-          <small class="{{validStyle[8]}}">Только русские буквы<br></small>
-        </div>
+        <input type="text" class="form-control" [(ngModel)]="user.firstName" name="firstName" required minlength="3"
+               pattern="^[А-я]+$" #firstName="ngModel">
+        <small class="text-danger" *ngIf="firstName.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="firstName.hasError('minlength')">Не менее 3-х символов<br></small>
+        <small class="text-danger" *ngIf="lastName.hasError('pattern')">Использовать только кирилицу</small>
       </div>
     </div>
+
     <div class="row mb-3">
-      <div class="col">
+      <div class="col-6">
         <label>Пароль</label>
-        <div class="input-group mb-2">
-          <input class="form-control" style="width: 170pt" type="{{passwordCheck}}" formControlName="password"
-                 placeholder="Введите пароль (*)"
-                 [ngClass]="{error_border:_password.errors?.required, ok_border:!_password.errors?.required}">
+        <div class="input-group">
+          <input type="{{visiblePassword}}" class="form-control" [(ngModel)]="user.password" name="password" required
+                 pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{4,}"
+                 #password="ngModel">
           <div class="input-group-append">
-            <div class="input-group-text" (click)="passwordVisibleHide()">@</div>
+            <span class="input-group-text" (click)="changeVisiblePassword()">@</span>
           </div>
         </div>
-        <div class="error">
-          <small class="{{validStyle[1]}}">Длина минимум 8<br></small>
-          <small class="{{validStyle[2]}}">Должен содержать цифры<br></small>
-          <small class="{{validStyle[3]}}">Должен содержать заглавные латинские буквы<br></small>
-          <small class="{{validStyle[4]}}">Должен содержать строчные латинские буквы<br></small>
-        </div>
+        <small class="text-danger" *ngIf="password.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="password.hasError('pattern')">Не менее 4 символов,<br> включая буквы на
+          латинице, цифры</small>
       </div>
-      <div class="col">
+      <div class="col-6">
         <label>Повторите пароль</label>
-        <div class="input-group mb-2">
-          <input class="form-control" style="width: 170pt" type="{{passwordCheck}}" formControlName="secondPassword"
-                 placeholder="Введите пароль (*)"
-                 [ngClass]="{error_border:_secondPassword.errors?.required, ok_border:!_secondPassword.errors?.required}">
+        <div class="input-group">
+          <input type="{{visiblePassword}}" class="form-control" [(ngModel)]="password2"
+                 name="matchingPassword" required #matchingPassword="ngModel">
           <div class="input-group-append">
-            <div class="input-group-text" (click)="passwordVisibleHide()">@</div>
+            <span class="input-group-text" (click)="changeVisiblePassword()">@</span>
           </div>
         </div>
-        <div class="error">
-          <small class="{{validStyle[9]}}">Пароли должны быть идентичны<br></small>
-        </div>
+        <small class="text-danger" *ngIf="matchingPassword.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="user.password != password2 && password2">Пароли
+          не совпадают</small>
       </div>
     </div>
-    <div style="text-align: end">
-      <button type="submit" class="btn btn-primary"
-              [disabled]="this.validStyle[5] == 'error' || this.validStyle[6] == 'error' || this.validStyle[7] == 'error'
-            || this.validStyle[8] == 'error' || this.validStyle[1] == 'error' || this.validStyle[2] == 'error' || this.validStyle[3] == 'error'
-            || this.validStyle[4] == 'error' || this.validStyle[9] == 'error'">
-        Регистрация
+
+    <div class="row p-3">
+      <button [disabled]="login.errors || password.errors || user.password != password2 || lastName.errors || firstName.errors"
+        type="submit" class="btn btn-primary col-5" (click)="registration()">Записать
       </button>
+      <div class="col-2"></div>
+      <button class="btn btn-primary col-5" [routerLink]="['/login']">Отмена</button>
     </div>
   </form>
 </div>

@@ -1,0 +1,10 @@
+.ok{
+  background-color: #457bb4;
+  padding: 5px 15px;
+  color: white;
+}
+.error{
+  background-color: rgb(162, 68, 68);
+  padding: 5px 15px;
+  color: white;
+}

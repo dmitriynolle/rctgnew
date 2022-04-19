@@ -4,7 +4,7 @@ import {NameGames, UserModel} from '../../data/user.model';
 import {Etap} from '../../data/registration';
 import {ShtrafBall} from '../../data/shtraf';
 import {sortBy} from "sort-by-typescript";
-import {StagesNameController} from "../../data/controllers/StagesNameController";
+import {StagesNameController} from "../../controllers/StagesNameController";
 
 @Component({
   selector: 'app-org',

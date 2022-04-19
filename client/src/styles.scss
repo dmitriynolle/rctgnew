@@ -238,7 +238,7 @@ body {
 
 .main_vk {
   width: fit-content;
-  background-color: #457bb4;
+  //background-color: #457bb4;
   color: white;
   padding: 5px 15px;
   display: flex;
@@ -526,3 +526,6 @@ body {
     height: 50px;
   }
 }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

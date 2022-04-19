@@ -1,0 +1,28 @@
+
+  <div class="header_menu">
+    <div class="header_menu_img cursor">
+      <img src="assets/logoTrophyNnLong.png" alt="logo">
+    </div>
+    <div class="header_menu_buttom cursor {{active[0]}}" [routerLink]="['']" (click)="serActive(0)">Главная</div>
+    <div class="header_menu_buttom nav-item dropdown">
+      <div class="cursor {{active[1]}}" data-toggle="dropdown" aria-haspopup="true">Результаты</div>
+      <div class="dropdown-menu border">
+        <div class="dropdown-item py-2 cursor" [routerLink]="['org2']" (click)="serActive(1)">Результаты</div>
+        <div class="dropdown-item py-2 cursor" [routerLink]="['ratingNN']" (click)="serActive(1)">Рейтинг НН</div>
+        <div class="dropdown-item py-2 cursor" [routerLink]="['ratingGlobal']" (click)="serActive(1)">Рейтинг глоб.
+        </div>
+      </div>
+    </div>
+    <div *ngIf="role" class="header_menu_buttom cursor {{active[2]}}" (click)="serActive(2)" [routerLink]="['mainmenu']">Мероприятия</div>
+    <div *ngIf="!username" class="header_menu_buttom cursor {{active[3]}}" [routerLink]="['login']"
+         (click)="serActive(3);">Вход</div>
+    <div  *ngIf="username" class="header_menu_buttom nav-item dropdown">
+      <div class="cursor {{active[3]}}" data-toggle="dropdown" aria-haspopup="true"
+           (click)="serActive(3)">{{username}}</div>
+      <div class="dropdown-menu dropdown-menu-right border">
+        <div class="dropdown-item py-2 cursor" [routerLink]="['']" (click)="serActive(3)">Профиль</div>
+        <div *ngIf="role" class="dropdown-item py-3 cursor" [routerLink]="['']" (click)="serActive(3)">Админка</div>
+        <div class="dropdown-item py-2 cursor" [routerLink]="['']" (click)="serActive(3); delJwt()">Выход</div>
+      </div>
+    </div>
+  </div>

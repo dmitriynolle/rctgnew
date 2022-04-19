@@ -5,7 +5,7 @@ import {EtapView} from '../../data/registration';
 import {ActivatedRoute} from '@angular/router';
 import {Subscription} from 'rxjs';
 import {sortBy} from "sort-by-typescript";
-import {StagesNameController} from "../../data/controllers/StagesNameController";
+import {StagesNameController} from "../../controllers/StagesNameController";
 
 @Component({
   selector: 'app-home',

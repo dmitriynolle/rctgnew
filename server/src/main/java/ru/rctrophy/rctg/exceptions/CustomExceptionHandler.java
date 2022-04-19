@@ -15,4 +15,9 @@ public class CustomExceptionHandler {
     public ResponseEntity handleException(UserNotFoundException e) {
         return new ResponseEntity(new ErrorResponse(500, e.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
     }
+
+    @ExceptionHandler(UserAlreadyExistsException.class)
+    public ResponseEntity handleException(UserAlreadyExistsException e) {
+        return new ResponseEntity(new ErrorResponse(500, e.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
 }

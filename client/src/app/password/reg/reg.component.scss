@@ -5,12 +5,31 @@ input.ng-touched.ng-invalid {
 .ok {
   color: #457bb4;
 }
-.ok_border{
+
+.ok_border {
   border-color: #457bb4;
 }
+
 .error {
   color: red;
 }
-.error_border{
+
+.error_border {
   border-color: red;
+}
+
+.row {
+  margin: auto;
+}
+
+.btn-primary{
+  background-color: #457bb4;
+  border-color: #457bb4;
+}
+
+@media (max-width: 650px) {
+  .row {
+
+    width: 90%;
+  }
 }
