@@ -1,0 +1,35 @@
+input.ng-touched.ng-invalid {
+  border-color: red;
+}
+
+.ok {
+  color: #457bb4;
+}
+
+.ok_border {
+  border-color: #457bb4;
+}
+
+.error {
+  color: red;
+}
+
+.error_border {
+  border-color: red;
+}
+
+.row {
+  margin: auto;
+}
+
+.btn-primary{
+  background-color: #457bb4;
+  border-color: #457bb4;
+}
+
+@media (max-width: 650px) {
+  .row {
+
+    width: 90%;
+  }
+}

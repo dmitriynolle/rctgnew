@@ -25,8 +25,6 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     localStorage.removeItem('auth_token');
-    if(localStorage.getItem('username'))
-      this.router.navigateByUrl('');
   }
 
   passwordVisibleHide() {
@@ -47,7 +45,7 @@ export class LoginComponent implements OnInit {
           if (this.jwtDecoder.roles[i] == 'ADMIN')
             localStorage.setItem('roles', this.jwtDecoder.roles[i]);
         }
-          window.location.reload();
+          this.router.navigateByUrl('').then(() => window.location.reload());
       }
     });
   }

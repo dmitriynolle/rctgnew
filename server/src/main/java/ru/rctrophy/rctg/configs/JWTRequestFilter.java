@@ -3,7 +3,6 @@ package ru.rctrophy.rctg.configs;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.SignatureException;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -21,16 +20,14 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class JWTRequestFilter extends OncePerRequestFilter {
 
-    private final String AUTH_HEADER_NAME = "Authorization";
-    private final String AUTH_HEADER_START_LETTERS = "Bearer ";
-    private final String REQUEST_URI = "all";
-
     private final JWTTokenUtils jwtTokenUtil;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+        String AUTH_HEADER_NAME = "Authorization";
+        String REQUEST_URI = "public";
+        String AUTH_HEADER_START_LETTERS = "Bearer ";
         String authHeader = request.getHeader(AUTH_HEADER_NAME);
-
         String username = null;
         String jwt = null;
         if (authHeader != null && authHeader.startsWith(AUTH_HEADER_START_LETTERS) && !request.getRequestURI().contains(REQUEST_URI)) {
@@ -39,7 +36,6 @@ public class JWTRequestFilter extends OncePerRequestFilter {
                 username = jwtTokenUtil.getUsernameFromToken(jwt);
             } catch (ExpiredJwtException | SignatureException e) {
                 response.setStatus(401);
-                response.sendError(401,"Пожалуйста перелогинтесь");
                 return;
             }
         }

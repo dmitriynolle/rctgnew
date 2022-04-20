@@ -20,7 +20,7 @@
       <div class="cursor {{active[3]}}" data-toggle="dropdown" aria-haspopup="true"
            (click)="serActive(3)">{{username}}</div>
       <div class="dropdown-menu dropdown-menu-right border">
-        <div class="dropdown-item py-2 cursor" [routerLink]="['']" (click)="serActive(3)">Профиль</div>
+        <div class="dropdown-item py-2 cursor" [routerLink]="['/profile']" (click)="serActive(3)">Профиль</div>
         <div *ngIf="role" class="dropdown-item py-3 cursor" [routerLink]="['']" (click)="serActive(3)">Админка</div>
         <div class="dropdown-item py-2 cursor" [routerLink]="['']" (click)="serActive(3); delJwt()">Выход</div>
       </div>

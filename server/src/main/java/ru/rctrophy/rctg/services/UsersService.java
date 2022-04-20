@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.rctrophy.rctg.dto.UsersDto;
+import ru.rctrophy.rctg.dto.UsersProfileDto;
 import ru.rctrophy.rctg.entities.Roles;
 import ru.rctrophy.rctg.entities.Users;
 import ru.rctrophy.rctg.exceptions.UserNotFoundException;
@@ -29,8 +30,8 @@ public class UsersService implements UserDetailsService {
         return users.stream().map(UsersDto::new).collect(Collectors.toList());
     }
 
-    public Users getUserById(Long user_id) {
-        return usersRepository.findById(user_id).orElseThrow(() -> new UserNotFoundException("Пользователь не найден!"));
+    public Users getUserByUsername(String username) {
+        return usersRepository.findByUsername(username).orElseThrow(() -> new UserNotFoundException("Пользователь не найден!"));
     }
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -55,7 +56,8 @@ public class UsersService implements UserDetailsService {
     }
 
     @Transactional
-    public Users save(Users users) {
-        return usersRepository.save(users);
+    public UsersDto save(Users users) {
+        UsersDto usersDto = new UsersDto(usersRepository.save(users));
+        return usersDto;
     }
 }

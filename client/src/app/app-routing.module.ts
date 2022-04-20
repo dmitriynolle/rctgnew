@@ -7,19 +7,21 @@ import {EtapmenuComponent} from './etapmenu/etapmenu.component';
 import {OrganizermenuComponent} from './organizer/organizermenu/organizermenu.component';
 import {ResultComponent} from './rating/result/result.component';
 import {FinesComponent} from './organizer/fines/fines.component';
-import {RegComponent} from './password/reg/reg.component';
+import {RegComponent} from './user/reg/reg.component';
 import {RatingNNComponent} from './rating/rating-nn/rating-nn.component';
 import {MainComponent} from './main/main.component';
 import {RatingGlobalComponent} from './rating/rating-global/rating-global.component';
 import {SprintComponent} from './judge/sprint/sprint.component';
 import {RatingPilotovComponent} from './rating/rating-pilotov/rating-pilotov.component';
-import {LoginComponent} from './password/login/login.component';
+import {LoginComponent} from './user/login/login.component';
+import {ProfileComponent} from "./user/profile/profile.component";
 
 const appRoutes = [
   {path: '', component: MainComponent},
   {path: 'sprint', component: SprintComponent},
   {path: 'login', component: LoginComponent},
   {path: 'password', component: RegComponent},
+  {path: 'profile', component: ProfileComponent},
   {path: 'mainmenu', component: EtapmenuComponent},
   {path: 'org', component: OrganizermenuComponent},
   {path: 'org1', component: RegistrationComponent},

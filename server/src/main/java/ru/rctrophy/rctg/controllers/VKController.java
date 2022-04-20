@@ -13,7 +13,7 @@ import ru.rctrophy.rctg.services.VKService;
 public class VKController {
     private final VKService vkService;
 
-    @GetMapping(value = "/all/VK", produces = "application/json")
+    @GetMapping(value = "/public/VK", produces = "application/json")
     public Mono<Object> getAll(){
         return vkService.getAll();
     }

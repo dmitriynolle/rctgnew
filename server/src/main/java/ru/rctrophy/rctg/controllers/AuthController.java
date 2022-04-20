@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.rctrophy.rctg.configs.JWTTokenUtils;
 import ru.rctrophy.rctg.dto.JwtRequest;
 import ru.rctrophy.rctg.dto.JwtResponse;
+import ru.rctrophy.rctg.dto.UsersDto;
 import ru.rctrophy.rctg.entities.Users;
 import ru.rctrophy.rctg.exceptions.UserAlreadyExistsException;
 import ru.rctrophy.rctg.responsies.ErrorResponse;
@@ -37,7 +38,7 @@ public class AuthController {
     private RolesService rolesService;
 
 
-    @PostMapping("/all/auth")
+    @PostMapping("/public/auth")
     public ResponseEntity<?> createAuthToken(@RequestBody JwtRequest authRequest) {
         try {
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
@@ -49,8 +50,8 @@ public class AuthController {
         return ResponseEntity.ok(new JwtResponse(token));
     }
 
-    @PostMapping(value = "/all/register")
-    public Users UsersRegister(@RequestBody Users users){
+    @PostMapping(value = "/public/register")
+    public UsersDto UsersRegister(@RequestBody Users users){
         if (usersService.isUserByLoginExists(users.getUsername())) {
             throw new UserAlreadyExistsException("Пользователь с таким логином уже существует");
         }

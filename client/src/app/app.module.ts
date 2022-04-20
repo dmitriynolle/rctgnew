@@ -11,7 +11,7 @@ import {EtapmenuComponent} from './etapmenu/etapmenu.component';
 import {ResultComponent} from './rating/result/result.component';
 import {OrganizermenuComponent} from './organizer/organizermenu/organizermenu.component';
 import {FinesComponent} from './organizer/fines/fines.component';
-import {RegComponent} from './password/reg/reg.component';
+import {RegComponent} from './user/reg/reg.component';
 import {RatingNNComponent} from './rating/rating-nn/rating-nn.component';
 import {MainComponent} from './main/main.component';
 import {RatingGlobalComponent} from './rating/rating-global/rating-global.component';
@@ -19,7 +19,7 @@ import {SprintComponent} from './judge/sprint/sprint.component';
 import {RatingPilotovComponent} from './rating/rating-pilotov/rating-pilotov.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FooterComponent} from './footer/footer.component';
-import {LoginComponent} from './password/login/login.component';
+import {LoginComponent} from './user/login/login.component';
 import {registerLocaleData} from '@angular/common';
 import localeRu from '@angular/common/locales/ru';
 import {JwtService} from "./controllers/JwtService";
@@ -27,6 +27,7 @@ import {Interceptor} from "./controllers/Interceptor";
 import {ModalWindowComponent} from "./modal-window/modal-window.component";
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {HeaderComponent} from './header/header.component';
+import { ProfileComponent } from './user/profile/profile.component';
 
 registerLocaleData(localeRu, 'ru');
 
@@ -49,7 +50,8 @@ registerLocaleData(localeRu, 'ru');
     FooterComponent,
     LoginComponent,
     ModalWindowComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

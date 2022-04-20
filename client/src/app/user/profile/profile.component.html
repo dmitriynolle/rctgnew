@@ -1,0 +1,73 @@
+<div style="display: flex; padding: 50px 0">
+  <form #formLogin="ngForm" style="margin: auto">
+
+    <div class="row mb-3">
+      <div class="col-12">
+        <label>Можно изменить регистрационные данные. Так-же можно сменить пароль</label>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-6">
+        <label>Фамилия</label>
+        <input type="text" class="form-control" [(ngModel)]="usersProfile.lastName" name="lastName" required minlength="3"
+               pattern="^[А-я]+$" #lastName="ngModel">
+        <small class="text-danger" *ngIf="lastName.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="lastName.hasError('minlength')">Не менее 3-х символов<br></small>
+        <small class="text-danger" *ngIf="lastName.hasError('pattern')">Использовать только кирилицу</small>
+      </div>
+      <div class="col-6">
+        <label>Имя</label>
+        <input type="text" class="form-control" [(ngModel)]="usersProfile.firstName" name="firstName" required minlength="3"
+               pattern="^[А-я]+$" #firstName="ngModel">
+        <small class="text-danger" *ngIf="firstName.hasError('required')">Обязательно для заполнения</small>
+        <small class="text-danger" *ngIf="firstName.hasError('minlength')">Не менее 3-х символов<br></small>
+        <small class="text-danger" *ngIf="lastName.hasError('pattern')">Использовать только кирилицу</small>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <span class="ml-3">Роли пользователя</span>
+      <div  *ngFor="let item of usersProfile.roles" class="col-2">
+        <label>{{item.name}}</label>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <span *ngIf="visible == 0" class="cursor ml-3" (click)="visible = 1">Сменить пароль</span>
+      <div *ngIf="visible == 1" class="col-6">
+        <label>Пароль</label>
+        <div class="input-group">
+          <input type="{{visiblePassword}}" class="form-control" [(ngModel)]="usersProfile.password" name="password" required
+                 pattern="(?=.*[0-9])(?=.*[A-z]).{4,}"
+                 #password="ngModel">
+          <div class="input-group-append">
+            <span class="input-group-text" (click)="changeVisiblePassword()">@</span>
+          </div>
+        </div>
+        <small class="text-danger" *ngIf="password.hasError('pattern')">Не менее 4 символов,<br> включая буквы на
+          латинице, цифры</small>
+      </div>
+      <div *ngIf="visible == 1" class="col-6">
+        <label>Повторите пароль</label>
+        <div class="input-group">
+          <input type="{{visiblePassword}}" class="form-control" [(ngModel)]="password2"
+                 name="matchingPassword" required #matchingPassword="ngModel">
+          <div class="input-group-append">
+            <span class="input-group-text" (click)="changeVisiblePassword()">@</span>
+          </div>
+        </div>
+        <small class="text-danger" *ngIf="usersProfile.password != password2 && password2">Пароли
+          не совпадают</small>
+      </div>
+    </div>
+
+    <div class="row p-3">
+      <button [disabled]="lastName.errors || firstName.errors || usersProfile.password != password2"
+              type="submit" class="btn btn-primary col-5" (click)="registration()">Записать
+      </button>
+      <div class="col-2"></div>
+      <button class="btn btn-primary col-5" [routerLink]="['']">Отмена</button>
+    </div>
+  </form>
+</div>
